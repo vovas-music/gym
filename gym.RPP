@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.07/macOS-arm64" 1764755789
+<REAPER_PROJECT 0.1 "7.07/macOS-arm64" 1764756961
   <NOTES 0 2
   >
   RIPPLE 0
@@ -16,8 +16,8 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 29.33333333333333
-  ZOOM 13.23708860269883 0 0
+  CURSOR 32
+  ZOOM 10.49218639416171 0 0
   VZOOMEX 6 0
   USE_REC_CFG 0
   RECMODE 1
@@ -96,14 +96,14 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 0.26529707233193 0.054 -1 -1 1
+    VOLPAN 1 0.054 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
-    SEL 1
+    SEL 0
     REC 0 5088 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -236,7 +236,119 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 0
+      POSITION 2
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0F01D9C2-4223-D347-8C52-EB820ADD364F}
+      IID 57
+      NAME "chorus acc"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {66B1AD5D-3E1A-B749-A884-45D8B98913D7}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {20717F02-6377-CA41-8058-EB7CA10155CA}
+        E 0 80 44 7f
+        E 0 80 50 7f
+        E 0 80 4b 7f
+        E 0 90 45 7f
+        E 480 90 4c 7f
+        E 480 90 51 7f
+        E 480 90 55 7f
+        E 480 80 51 00
+        E 0 80 55 00
+        E 0 90 51 7f
+        E 480 80 4c 00
+        E 0 90 4c 7f
+        E 480 80 45 7f
+        E 0 80 51 7f
+        E 0 80 4c 7f
+        E 0 90 45 7f
+        E 480 90 4c 7f
+        E 480 90 51 7f
+        E 480 90 55 7f
+        E 480 80 51 00
+        E 0 80 55 00
+        E 0 90 51 7f
+        E 480 80 4c 00
+        E 0 90 4c 7f
+        E 480 80 45 7f
+        E 0 80 51 7f
+        E 0 80 4c 7f
+        E 0 90 44 7f
+        E 480 90 4b 7f
+        E 480 90 50 7f
+        E 480 90 54 7f
+        E 480 80 50 00
+        E 0 80 54 00
+        E 0 90 50 7f
+        E 480 80 4b 00
+        E 0 90 4b 7f
+        E 480 80 44 7f
+        E 0 80 50 7f
+        E 0 80 4b 7f
+        E 0 90 44 7f
+        E 480 80 44 7f
+        E 2400 90 3d 7f
+        E 480 90 44 7f
+        E 480 90 49 7f
+        E 480 90 4c 7f
+        E 480 80 49 00
+        E 0 80 4c 00
+        E 0 90 49 7f
+        E 480 80 44 00
+        E 0 90 44 7f
+        E 480 80 3d 7f
+        E 0 80 49 7f
+        E 0 80 44 7f
+        E 0 90 3d 7f
+        E 480 90 44 7f
+        E 480 90 49 7f
+        E 480 90 4c 7f
+        E 480 80 3d 7f
+        E 0 80 44 00
+        E 0 80 49 00
+        E 0 80 4c 00
+        E 0 90 40 7f
+        E 480 80 40 00
+        E 0 90 3f 7f
+        E 480 80 3f 00
+        E 0 90 3d 7f
+        E 1440 80 3d 00
+        E 0 90 37 7f
+        E 480 80 37 00
+        E 0 90 36 7f
+        E 480 80 36 00
+        E 0 90 34 7f
+        E 480 80 34 00
+        E 0 90 31 7f
+        E 480 80 31 00
+        E 2400 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {6EBCFC64-D168-D240-B40B-8E2D4EAA6243}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 736
+        VELLANE -1 9 0 0 1
+        VELLANE -2 9 55 0 1
+        CFGEDITVIEW 0 0.009583 42 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 226
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 66 1352 843 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 18
       SNAPOFFS 0
       LENGTH 32
       LOOP 1
@@ -244,7 +356,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {8371FF4A-508F-0643-ABDD-569D1A9BF2F8}
       IID 43
       NAME "verse acc"
@@ -461,11 +573,11 @@
         KEYSNAP 0
         TRACKSEL 226
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 66 1352 843 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 66 1352 843 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
       >
     >
     <ITEM
-      POSITION 32
+      POSITION 50
       SNAPOFFS 0
       LENGTH 40
       LOOP 1
@@ -714,7 +826,385 @@
         KEYSNAP 0
         TRACKSEL 226
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 66 1352 843 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 66 1352 843 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+  >
+  <TRACK {7E53BA1D-3DE3-8443-83D9-6A32F22CF682}
+    NAME "ReaSynth "
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.32759970788183 0.054 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 1
+    REC 0 5088 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {7E53BA1D-3DE3-8443-83D9-6A32F22CF682}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 458 107 611 494
+      SHOW 0
+      LASTSEL 1
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.vst.dylib 0 "" 1919251321<5653547265737972656173796E746800> ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAEAA=
+        776t3g3wrd7iIV47gOPKOgAAAAAAAAAAH4WrPsAUYj0AAAAA7nz/PuxRgD4AAIA/AACAPwrXozoAAIA/AAAAAAAAgD8=
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {16717F85-2EAE-DD48-B2C4-ABA79DEB93D0}
+      WAK 0 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.vst.dylib 0 "" 1919251321<5653547265737972656173796E746800> ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAEAA=
+        776t3g3wrd6mm8Q7gOPKOgAAAAAAAAAAcT3KPrYFLz0AAAAAAACAP/YoAD8AAIA/AACAP+xRAD8AAIA/AAAAAAAAgD8=
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {BA49E8D2-967A-D84C-A4AD-2E61FCAA185F}
+      WAK 0 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.vst.dylib 0 "" 1919251321<5653547265737972656173796E746800> ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAEAA=
+        776t3g3wrd6mm8Q7gOPKOgAAAAAAAAAAUrgePtEzXDsAAAAAAACAP2AsJT8AAIA/AACAPwAAAD8AAIA/AAAAAAAAgD8=
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {F0A70A79-6BAE-9447-B5DE-3B589E552C68}
+      WAK 0 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.vst.dylib 0 "" 1919251321<5653547265737972656173796E746800> ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAEAA=
+        776t3g3wrd6mm8Q7gOPKOgAAAAAAAAAAVOOlPa5KvzsAAAAAAACAPwrXPz8AAIA/AACAPwAAAD8AAIA/AAAAAAAAgD8=
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {6DD9EC45-B334-E14E-B175-BB63F7F7E532}
+      WAK 0 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.vst.dylib 0 "" 1919251321<5653547265737972656173796E746800> ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAEAA=
+        776t3g3wrd6mm8Q7gOPKOgAAAAAAAAAAAAAAAEBW7joAAAAAAACAPwrXfz8AAIA/AACAPwAAAD8AAIA/AAAAAAAAgD8=
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {58626373-1420-7547-8A2B-C61CAAA704FD}
+      WAK 0 0
+      BYPASS 0 0 0
+      <VST "VST: ReaComp (Cockos)" reacomp.vst.dylib 0 "" 1919247213<5653547265636D726561636F6D700000> ""
+        bWNlcu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAFwAAAAAAAAAAAAQAA==
+        776t3g3wrd6s/qE9EdsBPaabxDsK16M8AAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAAAAAgD8AAAAAzcxMPQAAAAAAAAAAAAAAAAAAAADZiZ09AAAAAAAAAAA=
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {E24C9776-0E53-4644-9B94-CBA227E92FBC}
+      WAK 0 0
+      BYPASS 0 0 0
+      <JS guitar/distortion ""
+        25 1 -5 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {EFA99DFA-034A-644E-A854-8B88BCCC51E5}
+      WAK 0 0
+      BYPASS 0 0 0
+      <JS loser/4BandEQ ""
+        -8 50 -5 322 3 8058 7 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {E0CF4E09-F2B2-1540-AFBF-0BD66629C8C0}
+      WAK 0 0
+      BYPASS 0 0 0
+      <JS guitar/phaser ""
+        0.5 440 1537 -18 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {573772A8-B42F-4C4D-A442-ACFC081009EE}
+      WAK 0 0
+      BYPASS 1 0 0
+      <VST "VST: ReaDelay (Cockos)" readelay.vst.dylib 0 "" 1919247468<5653547265646C72656164656C617900> ""
+        bGRlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAATAAAAAEAAAAAABAA
+        AAAAAAAAAAABAAAALAAAAAIAAAAAAAAAc+12PgAAgD8AAAAAAACAPwAAAAAAAMA7Y4amPQAAgD8K1yM8AACAPwAAgD8AAIA/AAAAPw==
+        AEluc2VydCAtIDEvOCBEb3R0ZWQAEAAAAA==
+      >
+      PRESETNAME "Insert - 1/8 Dotted"
+      FLOATPOS 0 0 0 0
+      FXID {B5F79973-C987-7B43-90C5-4A157897EC94}
+      WAK 0 0
+      BYPASS 0 0 0
+      <JS guitar/amp-model-dual ""
+        "Marshall JTM45 - Blackface Deluxe.wav" "Mesa Boogie Clean - Blackface Twin.wav" -16 1 90 256 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {DD040336-AEEA-E745-9A95-2C0B6BBD7CA4}
+      WAK 0 0
+      BYPASS 0 0 0
+      <JS loser/ppp ""
+        0.25 16 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {6F4C1FC5-2D16-3247-A64D-E6D85BF28368}
+      WAK 0 0
+      BYPASS 1 0 0
+      <VST "VST: ReaVerbate (Cockos)" reaverbate.vst.dylib 0 "" 1920361016<56535472766238726561766572626174> ""
+        OGJ2cu9e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAKAAAAAAAAAAAABAA
+        776t3g3wrd5RIAE+AACAPwAAAAAAAAA/2/n+PgAAAAAAAIA/Hcf4Ow==
+        AFByb2dyYW0gMQAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {7BF2EC46-7382-0F45-ADE5-8544B9BCECE8}
+      WAK 0 0
+      BYPASS 0 0 0
+      <JS loser/Saturation ""
+        10 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {FCAA31F6-CA84-0A41-86D6-FC9A1A172916}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 16
+      SNAPOFFS 0
+      LENGTH 34
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {A7CDFCBE-935B-2244-9365-46BD8E9B8191}
+      IID 83
+      NAME "02-ReaSynth -MIDI-glued"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4780CB30-1EA8-4348-B436-C25709475B6F}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {856B5013-FFB0-7D43-99A7-F0D8B701D85F}
+        E 1920 90 38 7f
+        E 360 80 38 00
+        E 120 90 38 7f
+        E 360 80 38 00
+        E 120 90 44 7f
+        E 480 80 44 00
+        E 0 90 40 7f
+        E 480 80 40 00
+        E 0 90 3f 7f
+        E 480 80 3f 00
+        E 0 90 3d 7f
+        E 480 80 3d 00
+        E 0 90 3c 7f
+        E 480 80 3c 00
+        E 0 90 3d 7f
+        E 480 80 3d 00
+        E 0 90 3f 7f
+        E 840 80 3f 00
+        E 120 90 3f 7f
+        E 840 80 3f 00
+        E 120 90 38 7f
+        E 360 80 38 00
+        E 120 90 38 7f
+        E 360 80 38 00
+        E 120 90 42 7f
+        E 480 80 42 00
+        E 0 90 3f 7f
+        E 480 80 3f 00
+        E 0 90 3d 7f
+        E 480 80 3d 00
+        E 0 90 3c 7f
+        E 480 80 3c 00
+        E 0 90 3a 7f
+        E 480 80 3a 00
+        E 0 90 3c 7f
+        E 480 80 3c 00
+        E 0 90 3d 7f
+        E 840 80 3d 00
+        E 1080 90 38 7f
+        E 360 80 38 00
+        E 120 90 38 7f
+        E 360 80 38 00
+        E 120 90 44 7f
+        E 480 80 44 00
+        E 0 90 40 7f
+        E 480 80 40 00
+        E 0 90 3f 7f
+        E 480 80 3f 00
+        E 0 90 3d 7f
+        E 480 80 3d 00
+        E 0 90 3c 7f
+        E 480 80 3c 00
+        E 0 90 3d 7f
+        E 480 80 3d 00
+        E 31680 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {45886BD7-1152-AF45-96AA-B4BDE084F7F0}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 772
+      >
+    >
+  >
+  <TRACK {AA0C3AFF-E12F-4B59-A04E-5733E2C05213}
+    NAME Guitar2
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0.5 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 1 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 0 5088 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {AA0C3AFF-E12F-4B59-A04E-5733E2C05213}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 23 151 611 494
+      SHOW 0
+      LASTSEL 2
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.vst.dylib 0 "String Tone" 1919251321<5653547265737972656173796E746800> ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAEAA=
+        776t3g3wrd4bL109F7fROgAAQD8AAAAAAAAAAJCUMT7Rvkw+AAAAAAAAAD8AAAAAAAAwPwAAAD8AAAAAAAAAAAAAgD8=
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {3643B3F0-A735-495F-AE3B-0BA1F7B7D971}
+      WAK 0 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.vst.dylib 0 Transient 1919251321<5653547265737972656173796E746800> ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAEAA=
+        776t3g3wrd6mm8Q7F7fROgAAgD8AAAAAAAAAADiHtj2sutE5AAAAPz0KVz8AAAAAAADAPsl2Pj8AAAAAAAAAAAAAgD8=
+        AFByb2dyYW0gMQAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {5CF2AE82-8E3D-4D49-8C6F-78812D8DB298}
+      WAK 0 0
+      BYPASS 0 0 0
+      <JS filters/lowpass ""
+        4000.000000 0.200000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {27282B89-614D-4909-9F64-7EBC59F8591A}
+      WAK 0 0
+      BYPASS 0 0 0
+      <JS sstillwell/ozzifier ""
+        4 5 2 -12 -3 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {0F05CBC8-A85B-4485-BDB5-BED81C2AD18E}
+      WAK 0 0
+      BYPASS 0 0 0
+      <JS guitar/distortion ""
+        15 6 -12 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {88E387B6-D324-4FDC-B7C1-CA1E9725F39F}
+      WAK 0 0
+      BYPASS 0 0 0
+      <JS guitar/amp-model ""
+        "Dumble Overdrive Special - Tweed Deluxe.wav" -15 0 0 73 256 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {1AA6DA5B-3873-42D2-BF22-3E52B1A85310}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 18
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {77B26511-B4CE-9443-9ED4-ED280295FB40}
+      IID 69
+      NAME "02-ReaSynth -MIDI"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BAD7A6DF-D57F-8D48-B8F5-72205221838C}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {F8247605-EC67-9140-8CBD-3E9D23EFA99C}
+        e 2400 90 44 7f
+        e 480 80 44 00
+        e 0 90 4c 7f
+        e 2400 80 4c 00
+        e 0 90 4b 7f
+        e 480 80 4b 00
+        e 0 90 49 7f
+        e 2280 80 49 00
+        e 120 90 44 7f
+        e 480 80 44 00
+        e 0 90 4b 7f
+        e 2400 80 4b 00
+        e 0 90 49 7f
+        e 480 80 49 00
+        e 0 90 48 7f
+        e 2040 80 48 00
+        e 360 90 49 7f
+        e 360 80 49 00
+        e 120 90 49 7f
+        e 1200 80 49 00
+        e 240 90 43 7f
+        e 480 80 43 00
+        e 0 90 42 7f
+        e 480 80 42 00
+        e 0 90 40 7f
+        e 480 80 40 00
+        e 0 90 3d 7f
+        e 960 80 3d 00
+        e 480 90 37 7f
+        e 480 80 37 00
+        e 0 90 36 7f
+        e 480 80 36 00
+        e 0 90 34 7f
+        e 480 80 34 00
+        e 0 90 31 7f
+        e 960 80 31 00
+        E 4800 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {D1BC83ED-76DD-E54E-B404-18DBC3926CDB}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 747
+        VELLANE -1 9 0 0 1
+        VELLANE -2 9 55 0 1
+        CFGEDITVIEW 5760 0.035854 29 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 226
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 66 1352 843 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
       >
     >
   >
