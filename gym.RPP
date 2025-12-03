@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.07/macOS-arm64" 1764756961
+<REAPER_PROJECT 0.1 "7.07/macOS-arm64" 1764757229
   <NOTES 0 2
   >
   RIPPLE 0
@@ -16,7 +16,7 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 32
+  CURSOR 46
   ZOOM 10.49218639416171 0 0
   VZOOMEX 6 0
   USE_REC_CFG 0
@@ -841,7 +841,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     SEL 1
     REC 0 5088 1 0 0 0 0 0
     VU 2
@@ -862,7 +862,7 @@
       <VST "VSTi: ReaSynth (Cockos)" reasynth.vst.dylib 0 "" 1919251321<5653547265737972656173796E746800> ""
         eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAEAA=
         776t3g3wrd7iIV47gOPKOgAAAAAAAAAAH4WrPsAUYj0AAAAA7nz/PuxRgD4AAIA/AACAPwrXozoAAIA/AAAAAAAAgD8=
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {16717F85-2EAE-DD48-B2C4-ABA79DEB93D0}
@@ -871,7 +871,7 @@
       <VST "VSTi: ReaSynth (Cockos)" reasynth.vst.dylib 0 "" 1919251321<5653547265737972656173796E746800> ""
         eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAEAA=
         776t3g3wrd6mm8Q7gOPKOgAAAAAAAAAAcT3KPrYFLz0AAAAAAACAP/YoAD8AAIA/AACAP+xRAD8AAIA/AAAAAAAAgD8=
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {BA49E8D2-967A-D84C-A4AD-2E61FCAA185F}
@@ -880,7 +880,7 @@
       <VST "VSTi: ReaSynth (Cockos)" reasynth.vst.dylib 0 "" 1919251321<5653547265737972656173796E746800> ""
         eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAEAA=
         776t3g3wrd6mm8Q7gOPKOgAAAAAAAAAAUrgePtEzXDsAAAAAAACAP2AsJT8AAIA/AACAPwAAAD8AAIA/AAAAAAAAgD8=
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {F0A70A79-6BAE-9447-B5DE-3B589E552C68}
@@ -889,7 +889,7 @@
       <VST "VSTi: ReaSynth (Cockos)" reasynth.vst.dylib 0 "" 1919251321<5653547265737972656173796E746800> ""
         eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAEAA=
         776t3g3wrd6mm8Q7gOPKOgAAAAAAAAAAVOOlPa5KvzsAAAAAAACAPwrXPz8AAIA/AACAPwAAAD8AAIA/AAAAAAAAgD8=
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {6DD9EC45-B334-E14E-B175-BB63F7F7E532}
@@ -898,7 +898,7 @@
       <VST "VSTi: ReaSynth (Cockos)" reasynth.vst.dylib 0 "" 1919251321<5653547265737972656173796E746800> ""
         eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABEAAAAAAAAAAAAEAA=
         776t3g3wrd6mm8Q7gOPKOgAAAAAAAAAAAAAAAEBW7joAAAAAAACAPwrXfz8AAIA/AACAPwAAAD8AAIA/AAAAAAAAgD8=
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {58626373-1420-7547-8A2B-C61CAAA704FD}
@@ -907,7 +907,7 @@
       <VST "VST: ReaComp (Cockos)" reacomp.vst.dylib 0 "" 1919247213<5653547265636D726561636F6D700000> ""
         bWNlcu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAFwAAAAAAAAAAAAQAA==
         776t3g3wrd6s/qE9EdsBPaabxDsK16M8AAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAAAAAgD8AAAAAzcxMPQAAAAAAAAAAAAAAAAAAAADZiZ09AAAAAAAAAAA=
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {E24C9776-0E53-4644-9B94-CBA227E92FBC}
@@ -1033,8 +1033,8 @@
         E 0 90 3c 7f
         E 480 80 3c 00
         E 0 90 3d 7f
-        E 840 80 3d 00
-        E 1080 90 38 7f
+        E 1440 80 3d 00
+        E 480 90 38 7f
         E 360 80 38 00
         E 120 90 38 7f
         E 360 80 38 00
@@ -1050,12 +1050,108 @@
         E 480 80 3c 00
         E 0 90 3d 7f
         E 480 80 3d 00
-        E 31680 b0 7b 00
+        E 0 90 3f 7f
+        E 840 80 3f 00
+        E 120 90 3f 7f
+        E 840 80 3f 00
+        E 120 90 38 7f
+        E 360 80 38 00
+        E 120 90 38 7f
+        E 360 80 38 00
+        E 120 90 42 7f
+        E 480 80 42 00
+        E 0 90 3f 7f
+        E 480 80 3f 00
+        E 0 90 3d 7f
+        E 480 80 3d 00
+        E 0 90 3c 7f
+        E 480 80 3c 00
+        E 0 90 3a 7f
+        E 480 80 3a 00
+        E 0 90 3c 7f
+        E 480 80 3c 00
+        E 0 90 3d 7f
+        E 1440 80 3d 00
+        E 480 90 3d 7f
+        E 360 80 3d 00
+        E 120 90 3d 7f
+        E 360 80 3d 00
+        E 120 90 45 7f
+        E 360 80 45 00
+        E 120 90 45 7f
+        E 480 80 45 00
+        E 0 90 44 7f
+        E 480 80 44 00
+        E 0 90 42 7f
+        E 360 80 42 00
+        E 120 90 42 7f
+        E 480 80 42 00
+        E 0 90 40 7f
+        E 480 80 40 00
+        E 0 90 3f 7f
+        E 840 80 3f 00
+        E 120 90 3f 7f
+        E 840 80 3f 00
+        E 120 90 3b 7f
+        E 360 80 3b 00
+        E 120 90 3b 7f
+        E 360 80 3b 00
+        E 120 90 44 7f
+        E 360 80 44 00
+        E 120 90 44 7f
+        E 480 80 44 00
+        E 0 90 42 7f
+        E 480 80 42 00
+        E 0 90 40 7f
+        E 360 80 40 00
+        E 120 90 40 7f
+        E 480 80 40 00
+        E 0 90 3f 7f
+        E 480 80 3f 00
+        E 0 90 3d 7f
+        E 1440 80 3d 00
+        E 480 90 39 7f
+        E 360 80 39 00
+        E 120 90 39 7f
+        E 360 80 39 00
+        E 120 90 42 7f
+        E 360 80 42 00
+        E 120 90 42 7f
+        E 480 80 42 00
+        E 0 90 40 7f
+        E 480 80 40 00
+        E 0 90 3f 7f
+        E 360 80 3f 00
+        E 120 90 3f 7f
+        E 480 80 3f 00
+        E 0 90 3d 7f
+        E 480 80 3d 00
+        E 0 90 43 7f
+        E 360 80 43 00
+        E 120 90 43 7f
+        E 480 80 43 00
+        E 0 90 40 7f
+        E 480 80 40 00
+        E 0 90 3f 7f
+        E 360 80 3f 00
+        E 120 90 3f 7f
+        E 480 80 3f 00
+        E 0 90 3d 7f
+        E 480 80 3d 00
+        e 0 90 3f 7f
+        e 2880 80 3f 00
+        E 2880 b0 7b 00
         CCINTERP 32
         CHASE_CC_TAKEOFFS 1
         GUID {45886BD7-1152-AF45-96AA-B4BDE084F7F0}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 772
+        VELLANE 128 100 0 0 1
+        CFGEDITVIEW 34270.385779 0.053801 40 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 226
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 66 1352 843 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
       >
     >
   >
